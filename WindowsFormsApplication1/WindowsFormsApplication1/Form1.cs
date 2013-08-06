@@ -15,5 +15,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Button2");
+        }
     }
 }
